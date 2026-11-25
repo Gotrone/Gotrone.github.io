@@ -58,3 +58,5 @@ footer{margin-top:clamp(56px,9vw,96px);padding-top:1.5rem;border-top:1px solid v
   .pipe li+li::before{display:none}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+.photo{display:block;width:120px;height:120px;border-radius:50%;object-fit:cover;border:2px solid var(--line);margin:0 0 1.4rem}
