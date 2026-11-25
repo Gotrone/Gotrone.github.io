@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pierrick Vignal · Data &amp; Cloud Engineer</title>
+<meta name="description" content="Pierrick Vignal, data and cloud engineer. Applied-mathematics engineer (CY Tech, 2025), work-study at Safran on AWS data and DevOps, HPC master's from Universidade da Coruña.">
+<meta name="color-scheme" content="dark">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="wrap">
+
+<header class="hero">
+  <p class="eyebrow">Data &amp; Cloud engineer</p>
+  <h1>Pierrick Vignal</h1>
+  <p class="lead">Engineer in applied mathematics (CY Tech, 2025) with an exchange year in high performance computing. One year of work-study at Safran building and automating services on AWS. I am looking for a junior data engineering role in the cloud.</p>
+  <p class="actions">
+    <a class="btn" href="mailto:pierrick.vgnl@gmail.com">pierrick.vgnl@gmail.com</a>
+    <a class="btn ghost" href="https://github.com/Gotrone">GitHub</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/pierrick-vignal/">LinkedIn</a>
+  </p>
+  <ol class="pipe" aria-label="Skills as a data pipeline">
+    <li><b>source</b><span>SQL · open data · CSV</span></li>
+    <li><b>ingest</b><span>Python · AWS · Terraform</span></li>
+    <li><b>transform</b><span>pandas · scikit-learn</span></li>
+    <li><b>serve</b><span>Docker · GitLab CI · FastAPI</span></li>
+  </ol>
+</header>
+
+<section aria-labelledby="exp">
+  <h2 id="exp">Experience and education</h2>
+  <ul class="timeline">
+    <li><b>Data / Cloud engineer, work-study at Safran</b><time>Sep 2024 – Sep 2025</time><span>Deployed and industrialized services on AWS in an industrial environment. Wrote Terraform modules to standardize infrastructure, contributed to GitLab CI/CD pipelines, built monitoring and automation. FinOps and Green IT actions cut costs by up to about 40% on some non-production environments.</span></li>
+    <li><b>Modelling and simulation engineer, intern at Air Liquide</b><time>Apr 2024 – Aug 2024</time><span>Built a simulation and decision-support tool for biogas sites. It automates technical and economic calculations, saving an estimated 3 hours per simulation.</span></li>
+    <li><b>Data analyst / BI, intern at Crouzet</b><time>Jun 2023 – Aug 2023</time><span>Industrialized data cleaning and validation, built flows into a new SQL database, and delivered a Power BI dashboard that saves an estimated 2 hours of work per week.</span></li>
+    <li><b>Engineering degree in applied mathematics, CY Tech</b><time>2022 – 2025</time><span>High Performance Data Analytics track.</span></li>
+    <li><b>Exchange year in High Performance Computing, Universidade da Coruña</b><time>2024 – 2025</time><span>Intensive computing and large-scale data processing. Master's thesis on benchmarking ML models for CFD flow prediction.</span></li>
+  </ul>
+</section>
+
+<section aria-labelledby="proj">
+  <h2 id="proj">Projects</h2>
+  <p class="note">Every project links to its repository, where the README has the method, results and limits.</p>
+  <div class="grid">
+
+    <article class="card">
+      <h3><a href="https://github.com/Gotrone/cfd-benchmark-suite">cfd-benchmark-suite</a></h3>
+      <p class="kind">Master's thesis</p>
+      <p>Reproducible benchmark for CFD flow prediction: a lattice Boltzmann dataset with fixed splits, metrics, a FastAPI scoring platform with a leaderboard, tests, CI and Docker. The reference data are simulated (2D laminar flow), not experimental.</p>
+      <p class="tags"><span>Python</span><span>FastAPI</span><span>Docker</span><span>CI</span></p>
+    </article>
+
+    <article class="card">
+      <h3><a href="https://github.com/Gotrone/data-battle-energy-matching">data-battle-energy-matching</a></h3>
+      <p class="kind">Team project, Data Battle 2024 (CY Tech × Kerdos Energy)</p>
+      <p>Recommends energy-efficiency solutions from a free-text industrial need: spaCy cleaning, TF-IDF, cosine similarity ranking, and energy tracking of the pipeline with CodeCarbon. I wrote the command-line pipeline and the search form.</p>
+      <p class="tags"><span>Python</span><span>spaCy</span><span>scikit-learn</span><span>MySQL</span></p>
+    </article>
+
+    <article class="card">
+      <h3><a href="https://github.com/Gotrone/paris-metro-resilience">paris-metro-resilience</a></h3>
+      <p class="kind">Team project, IA Pau Data Challenge (Alstom)</p>
+      <p>Graph model of the Paris metro (307 stations, 377 connections) with 93,942 passenger trips. Simulates the removal of each of the 368 bypassable connections and ranks the most critical ones. My own cleaned and fixed version of the challenge code.</p>
+      <p class="tags"><span>Python</span><span>networkx</span><span>pandas</span></p>
+    </article>
+
+    <article class="card">
+      <h3><a href="https://github.com/Gotrone/hpc-cuda-vit-optimization">hpc-cuda-vit-optimization</a></h3>
+      <p class="kind">Team project of two, CY Tech</p>
+      <p>A CUDA bilateral filter about 29× faster than sequential C on a 512 × 512 image, and ViT-B/16 fine-tuning on CIFAR-10 (97.2% accuracy) with a study of quantization and pruning.</p>
+      <p class="tags"><span>CUDA</span><span>C</span><span>PyTorch</span></p>
+    </article>
+
+    <article class="card">
+      <h3><a href="https://github.com/Gotrone/spmv-benchmarking">spmv-benchmarking</a></h3>
+      <p class="kind">Coursework, Universidade da Coruña</p>
+      <p>Sparse matrix-vector products in C (COO, CSR, CSC) against GSL and CBLAS, across GCC and ICC optimization levels. Sparse formats run up to about 25× faster than dense at 10% density.</p>
+      <p class="tags"><span>C</span><span>GSL/CBLAS</span><span>GCC/ICC</span></p>
+    </article>
+
+  </div>
+</section>
+
+<section aria-labelledby="stack">
+  <h2 id="stack">Stack</h2>
+  <p class="tags big"><span>AWS</span><span>Python</span><span>SQL</span><span>Power BI</span><span>Docker</span><span>Terraform</span><span>GitLab CI/CD</span><span>Git</span><span>pandas</span><span>scikit-learn</span><span>PyTorch</span><span>C / CUDA</span><span>FastAPI</span></p>
+</section>
+
+<footer>
+  <p>Open to junior data engineer and cloud/DevOps roles. Contact: <a href="mailto:pierrick.vgnl@gmail.com">pierrick.vgnl@gmail.com</a></p>
+  <p class="fine">Pierrick Vignal · <a href="https://github.com/Gotrone">github.com/Gotrone</a> · <a href="https://www.linkedin.com/in/pierrick-vignal/">LinkedIn</a></p>
+</footer>
+
+</main>
+</body>
+</html>
